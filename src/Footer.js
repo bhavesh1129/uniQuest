@@ -71,7 +71,7 @@ function Footer() {
               </div>
               <div class="w-full px-8 mt-4 rounded-b-lg bg-blueGray-50">
                 <div class="container flex flex-col flex-wrap px-5 py-6 mx-auto sm:flex-row">
-                  <p class="text-sm text-center text-black sm:text-left ">© 2021 </p>
+                  <p class="text-sm text-center text-black sm:text-left ">© 2021 All rights reserved</p>
                   <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                     <a class="text-blue-500 hover:text-black">
                       <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
