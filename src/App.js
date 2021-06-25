@@ -3,6 +3,8 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import LoginPage from "./LoginPage";
+import Users from "./Users";
+import RecentThreads from "./RecentThreads";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <LoginPage/>
       <Navbar />
       <Home />
+      <Users/>
+      <RecentThreads/>
       <Footer />
     </div>
   );
