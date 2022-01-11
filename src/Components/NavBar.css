@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+#fri {
+    float: right;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.nav2 {
+    min-height: 3.5rem;
+    background-color: white;
+    display: inline;
+    box-shadow: -10px -10px 20px #303030;
+}
+
+#logo {
+    height: 80px;
+    width: 160px;
+    margin-right: 26.2rem;
+    margin-top: 0rem;
+}
+
+
+/* .search {
+    color: black;
+} */
+
+#style {
+    color: #303030;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+#style:hover,
+#basic-nav-dropdown:hover {
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#basic-nav-dropdown {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#link {
+    text-decoration: none;
+    color: #303030;
+}

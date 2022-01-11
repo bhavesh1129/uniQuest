@@ -1,0 +1,345 @@
+#homebg {
+    background-image: url("./newbg.png");
+    background-attachment: fixed;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    
+}
+.formbg {
+    background-image: url("./answersBg(1).png");
+    background-attachment: fixed;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+#homebg .grid-container {
+    margin-top: 10rem;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+#btn {
+  
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+Button:active {
+    border: 0;
+}
+
+#bcolor {
+    background-color: black;
+    border: 0;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+
+/* #bcolor:hover{
+  color:#fad545; 
+} */
+
+#bcolor:active {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+#fixedbtn {
+    position: fixed;
+    float: right;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 20px;
+}
+
+#stat {
+    flex: 1;
+    float: right;
+    margin-top: 0.3rem;
+    margin-right: 4%;
+    margin-bottom: 1.5rem;
+    width: 20em;
+    color: #303030;
+    max-width: 22rem;
+    min-width: 10rem;
+    display: flex;
+    overflow: hidden;
+    /* cursor: pointer; */
+    border-radius: 5px;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+    transition: all ease 200ms;
+}
+
+#stat:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+#qcard {
+    float: right;
+    flex: 1;
+    margin-top: 7%;
+    margin-right: 4%;
+    margin-left: 70%;
+    width: 20em;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+    transition: all ease 200ms;
+}
+
+#qcard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.qcardhover:hover {
+    background-color: #e5e4e2;
+    color: #303030;
+}
+
+#sbheader {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#cont {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 52rem;
+    
+    border-radius: 10px;
+    color: #303030;
+    margin-bottom: 10rem;
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.grid-container {
+    display: grid;
+    float: right;
+    align-items: right;
+    margin-top: 0rem;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.galign {
+    float: right;
+}
+
+#answer {
+    width: 5rem;
+    height: 5rem;
+    background-color: #ffffff;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.question:hover div[id="answer"] {
+    background-color: #494949;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #968e83, -5px -5px 10px #ffffff;
+}
+
+#quest {
+    display: flex;
+}
+
+#align {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.mt-0 {
+    font-weight: 550;
+}
+
+#date {
+    margin-left: 3rem;
+}
+
+.footer {
+    display: inline;
+    font-size: 15px;
+    color: gray;
+}
+
+.search {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#askcard {
+    border-radius: 10px;
+    z-index: 100;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    max-width: 52rem;
+    padding: 1rem;
+    color: white;
+    margin-top: 8.5rem;
+    font-size: 15px;
+    font-weight: 550;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+
+.overlay {
+    z-index: 9;
+    margin: 30px;
+    background: #009938;
+}
+
+#alignform {
+    max-width: 100vw;
+}
+
+#card {
+    background-color: rgb(97, 97, 97);
+    color: black;
+    outline-color: #ffffff;
+}
+
+.col-lg-2 {
+    float: right;
+    position: absolute;
+}
+
+#iconsize {
+    font-size: 25px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#bbox {
+    height: 15rem;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+#postq {
+    background-color: white;
+    color: black;
+    font-weight: 550;
+    border: none;
+    width: 15rem;
+}
+
+#alignbutton {
+    margin-left: 37%;
+}
+
+#ffooter {
+    background-color: #303030;
+    color: white;
+    width: 100%;
+    position: relative;
+}
+
+#contact,
+#build {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#team {
+    display: block;
+    list-style-type: none;
+}
+
+#contact li,
+#build li {
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.question:hover {
+    background-color: #e5e4e2;
+    color: #303030;
+    cursor: pointer;
+}
+
+#bcolor:active {
+    background-color: #777777;
+    color: #303030;
+    outline: none;
+    border: none;
+}
+
+#bcolor:focus {
+    background-color: #949494;
+    color: #303030;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+*:focus {
+    outline: 0 !important;
+    box-shadow: none;
+}
+
+#mainpage {
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+#showname {
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
