@@ -1,0 +1,38 @@
+/* #answerbackground{
+    background-image: url("answersBg(1).png");
+    background-attachment: fixed;
+    overflow: hidden;
+  } */
+
+
+#background{
+   
+    background-image: url("./answersBg(1).png");
+     background-attachment: fixed;
+     overflow-x: scroll;
+     overflow-y: scroll;
+     
+}
+
+#topicrs{
+    margin-top: 7rem;
+    width: 70%;
+    margin-left: 13%;
+    margin-bottom: 10rem;
+    box-shadow:  5px 5px 10px #bebebe,
+    -5px -5px 10px #ffffff;
+    border-radius: 10px;
+    text-align: left;
+    position: absolute;
+    max-height: 100rem;
+}
+
+#heading{
+text-align: center;
+background-color: black;
+border-radius: 3px;
+color:white;
+height:3rem;
+padding-top: 0.5rem;
+margin-bottom: 0rem;
+}

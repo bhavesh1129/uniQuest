@@ -1,0 +1,126 @@
+#answerbackground{
+    background-image: url("answersBg(1).png");
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+#qans{
+    margin-top:10rem;
+}
+#align {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+#answercard{
+    max-width: 55rem;
+    padding:1rem;
+}
+#answercard li{
+    list-style-type: none;
+}
+
+#questioncard{
+    max-width: 55rem;
+    padding:0.5rem;
+}
+
+#questitle{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+#desc{
+margin-top: 1rem;
+color:black;
+font-size: 20px;
+font-weight: 500;
+}
+
+#descbody{
+    font-size:17px;
+    font-weight: 450;
+}
+
+#answerbody{
+    font-size:17.5px;
+    
+}
+
+.dfooter {
+    display: inline;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(175, 175, 175);
+    border-radius: 10px;
+    padding: 0.2rem;
+  }
+
+#textarea{
+    height: 15rem;
+    max-width: 53rem;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+#addans{
+    background-color: black;
+    max-width: 55rem;
+    padding:1rem;
+    border-radius:10px;
+    color: black;
+    font-weight: 550;
+}
+#alignbutton{
+    margin-left: 35%;
+}
+
+#label{
+    font-size: 17px;
+    font-weight: 550;
+    color: white;
+}
+  
+.grid-container {
+    display: grid;
+    float: right;
+    align-items: right;
+    margin-right: 5%;
+    width:20%;
+    margin-top: 10rem;
+  }
+  
+.galign{
+  float:right;
+  }
+
+#answercont{
+    max-width: 55rem;
+    justify-content: center;
+      background-color: black;
+      box-shadow:  10px 10px 20px #bebebe,
+      -10px -10px 20px #ffffff;
+      border-radius: 10px;
+      margin-top: 10rem;
+      padding: 0.5rem;
+      
+}
+#answercont2{
+    max-width: 55rem;
+    justify-content: center;
+    background-color: black;
+    box-shadow:  10px 10px 20px #bebebe,
+    -10px -10px 20px #ffffff;
+    border-radius: 10px;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+.anslength{
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: white;
+  }
